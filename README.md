@@ -1,51 +1,51 @@
-# :robot: Tap0 Interface Creator for GNS3 :robot:
+# Tap0 Interface Creator for GNS3
 
-> :warning: **Welcome to the future of networking setup. This script is your Cyberdyne Systems Model 101 for setting up GNS3 interfaces.**:warning:
+This repository contains a Bash script that automates the creation of a `tap0` interface. The interface can be used to connect a cloud in GNS3 to an internal switch.
 
-## :gear: Requirements :gear:
+## Requirements
 
-- :penguin: GNS3 VM
-- :wrench: `tunctl` package for interface manipulation
-- :bridge_at_night: `bridge-utils` package for bridge control
+- GNS3 VM
+- `tunctl` package for interface manipulation
+- `bridge-utils` package for bridge control
 
-## :fire: Prerequisite Installation on GNS3 VM :fire:
+## Prerequisite Installation on GNS3 VM
 
-1. :arrow_forward: Update your package lists:
+1. Update your package lists:
     ```bash
     sudo apt update
     ```
-2. :arrow_forward: Install the `tunctl` package:
+2. Install the `tunctl` package:
     ```bash
     sudo apt install uml-utilities
     ```
-3. :arrow_forward: Install the `bridge-utils` package:
+3. Install the `bridge-utils` package:
     ```bash
     sudo apt install bridge-utils
     ```
 
-## :rocket: Installation :rocket:
+## Installation
 
-1. :arrow_forward: Clone this repository:
+1. Clone this repository:
     ```bash
     git clone <repository-url>
     ```
-2. :arrow_forward: Navigate to the directory:
+2. Navigate to the directory:
     ```bash
     cd <repository-folder>
     ```
 
-## :zap: Usage :zap:
+## Usage
 
-:exclamation: **Follow these steps to create a `tap0` interface and set it up for use in GNS3.** :exclamation:
+Follow these steps to create a `tap0` interface and set it up for use in GNS3.
 
-1. :arrow_forward: Make the script executable:
+1. Make the script executable:
     ```bash
     chmod +x tapo_Add.sh
     ```
-2. :arrow_forward: Run the script using `sudo`:
+2. Run the script using `sudo`:
     ```bash
     sudo ./tapo_Add.sh
     ```
-    :white_check_mark: This will create a `tap0` interface and configure it for use.
+    This will create a `tap0` interface and configure it for use.
 
-3. :arrow_forward: When configuring your GNS3 cloud, use the `tap0` interface to connect to an internal switch.
+3. When configuring your GNS3 cloud, use the `tap0` interface to connect to an internal switch.
