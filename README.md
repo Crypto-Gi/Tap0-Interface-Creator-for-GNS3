@@ -4,11 +4,11 @@
 
 ## :gear: Requirements :gear:
 
-- :penguin: Linux-based Operating System (Ubuntu 20.04.4 recommended)
+- :penguin: GNS3 VM
 - :wrench: `tunctl` package for interface manipulation
 - :bridge_at_night: `bridge-utils` package for bridge control
 
-## :fire: Prerequisite Installation on Ubuntu 20.04.4 :fire:
+## :fire: Prerequisite Installation on GNS3 VM :fire:
 
 1. :arrow_forward: Update your package lists:
     ```bash
