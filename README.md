@@ -25,7 +25,7 @@ This repository contains a Bash script that automates the creation of a `tap0` i
 
 ## Installation
 
-1. Clone this repository:
+1. Clone this repository or copy the Code :
     ```bash
     git clone <repository-url>
     ```
